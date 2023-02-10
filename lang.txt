@@ -1,0 +1,43 @@
+<div class="language-selector ready"><button class="language-selector-btn" type="button">
+<span class="selected-lang">English</span>
+
+<svg class="svg" role="img">
+<symbol id="arrow-down" viewBox="0 0 7 4"><path d="M1.659,0.274l2.198,2.117c0.38,0.366,0.38,0.958,0,1.323 c-0.379,0.366-0.994,0.366-1.374,0L0.285,1.597c-0.379-0.365-0.379-0.957,0-1.323C0.664-0.091,1.279-0.091,1.659,0.274z"></path><path d="M6.055,1.597L3.856,3.714c-0.379,0.366-0.994,0.366-1.374,0 c-0.379-0.365-0.379-0.957,0-1.323l2.198-2.117c0.379-0.365,0.995-0.365,1.374,0C6.434,0.64,6.434,1.232,6.055,1.597z">
+</path>
+</symbol>
+<use xlink:href="#arrow-down">
+</use>
+</svg>
+</button>
+<ul>
+
+<li>
+<a href="https://www.bluestacks.com/de/index.html" class="lang-link de" data-lang="de">
+<span class="locale-name">Deutsch</span>
+</a>
+</li>
+</ul>
+</div>
+
+
+<li>
+<a href="https://www.bluestacks.com/tw/index.html" class="lang-link zh-hant" data-lang="zh-hant">
+<span class="locale-name">繁體中文</span>
+</a>
+</li>
+<li><a href="https://www.bluestacks.com/vi/index.html" class="lang-link vi" data-lang="vi"><span class="locale-name">Tiếng Việt</span></a></li><li><a href="https://www.bluestacks.com/tr/index.html" class="lang-link tr" data-lang="tr"><span class="locale-name">Türkçe</span></a></li><li><a href="https://www.bluestacks.com/th/index.html" class="lang-link th" data-lang="th"><span class="locale-name">ไทย</span></a></li><li><a href="https://www.bluestacks.com/ru/index.html" class="lang-link ru" data-lang="ru"><span class="locale-name">Русский</span></a></li><li><a href="https://www.bluestacks.com/pt-br/index.html" class="lang-link pt-br" data-lang="pt-br"><span class="locale-name">Português</span></a></li><li><a href="https://www.bluestacks.com/pl/index.html" class="lang-link pl" data-lang="pl"><span class="locale-name">polski</span></a></li><li><a href="https://www.bluestacks.com/ms/index.html" class="lang-link ms" data-lang="ms"><span class="locale-name">Melayu</span></a></li><li><a href="https://www.bluestacks.com/ko/index.html" class="lang-link ko" data-lang="ko"><span class="locale-name">한국어</span></a></li><li><a href="https://www.bluestacks.com/ja/index.html" class="lang-link ja" data-lang="ja"><span class="locale-name">日本語</span></a></li><li><a href="https://www.bluestacks.com/it/index.html" class="lang-link it" data-lang="it"><span class="locale-name">Italiano</span></a></li><li><a href="https://www.bluestacks.com/id/index.html" class="lang-link id" data-lang="id"><span class="locale-name">Indonesia</span></a></li><li><a href="https://www.bluestacks.com/fr/index.html" class="lang-link fr" data-lang="fr">
+
+<span class="locale-name">Français</span></a></li><li><a href="https://www.bluestacks.com/es/index.html" class="lang-link es" data-lang="es">
+<span class="locale-name">Español</span></a></li>
+
+
+
+<li><a href="https://www.bluestacks.com/ar/index.html" class="lang-link ar" data-lang="ar"><span class="locale-name">العربية</span></a></li></ul></div>
+
+
+
+
+
+bpmCons  OU
+
+Sepapaja tn 6, 15551 Tallinn, Estonia
