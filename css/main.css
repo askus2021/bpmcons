@@ -75,7 +75,7 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
+    font-family: "lora-regular", sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -495,7 +495,8 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #26bec9;
+    /* background: #39b54a; */
     position: fixed;
     z-index: 900;
     top: 0;
@@ -1100,8 +1101,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 7.8rem;
-    line-height: 1.25;
+    font-size: 5.2rem;
+    line-height: 1.255;
     color: #000000;
     margin-top: 0;
 }
@@ -2464,7 +2465,7 @@ html.cl-loaded .home-content__main {
 
 .item-folio__thumb a::after {
     content: "+";
-    font-family: georgia, serif;
+    font-family: georgia, sans-serif;
     font-size: 2.7rem;
     display: block;
     height: 30px;
@@ -2638,7 +2639,7 @@ html.cl-loaded .home-content__main {
     padding-bottom: 16.8rem;
     /* background-color: #e6e6e6; */
     background-color: #26bec9;
-    color: #757575;
+    color: #000000;
     position: relative;
 }
 
@@ -2696,7 +2697,7 @@ html.cl-loaded .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: "lora-regular", sans-serif;
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
@@ -2763,7 +2764,18 @@ html.cl-loaded .home-content__main {
 .clients-testimonials .testimonials .slick-dots {
     margin-top: -0.6px;
 }
+/* Added by Nishant */
 
+.clients__line {
+    display: block;
+    width: 2px;
+    height: 20.4rem;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: -10.2rem;
+    margin-left: -1px;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2822,6 +2834,10 @@ html.cl-loaded .home-content__main {
     .clients-testimonials .testimonials p {
         font-size: 2rem;
     }
+    .clients__line {
+        height: 14.4rem;
+        top: -7.2rem;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2838,7 +2854,7 @@ html.cl-loaded .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    /* background-image: url("../images/contact-bg.jpg"); */
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -3223,7 +3239,7 @@ html.cl-loaded .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 1rem 0 1rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3355,7 +3371,7 @@ footer .row {
 
 
 /* ---------------------------------------------------------------
- * ## footer bottom
+ * ## footer/bottom of the page
  * --------------------------------------------------------------- */
 .footer-bottom {
     margin-top: 5.4rem;
@@ -3380,7 +3396,7 @@ footer .row {
 
 
 /* ------------------------------------------------------------------- 
- * ## go to top
+ * ## go to top Page
  * ------------------------------------------------------------------- */
 .go-top {
     position: fixed;
@@ -3399,7 +3415,9 @@ footer .row {
     line-height: 60px;
     text-align: center;
     background: black;
-    color: rgba(255, 255, 255, 0.5);
+    color: #26bec9;
+    /* rgba(255, 255, 255, 0.5); */
+    /* color: rgba(255, 255, 255, 0.5); */
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;

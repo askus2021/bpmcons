@@ -56,7 +56,7 @@ body {
 
 
 aside,
-footer,
+/* footer, */
 header,
 nav,
 section {
@@ -549,7 +549,7 @@ textarea {
 }
 
 .block-1-4 .col-block {
-    width: 25%;
+    width: 33%;
 }
 
 .block-1-2 .col-block {
