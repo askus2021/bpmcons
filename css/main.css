@@ -1,7 +1,6 @@
 /* =================================================================== 
  *
- *  Glint v1.0 Main Stylesheet
- *  11-20-2017
+ *  Stylesheet base model
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -2764,7 +2763,10 @@ html.cl-loaded .home-content__main {
 .clients-testimonials .testimonials .slick-dots {
     margin-top: -0.6px;
 }
-/* Added by Nishant */
+
+/* ------------------------------------------------------------------- 
+* Added by Nishant *
+* ------------------------------------------------------------------- */
 
 .clients__line {
     display: block;
@@ -3239,7 +3241,7 @@ html.cl-loaded .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 1rem 0 1rem;
+    padding: 1rem 0 1rem 0;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;

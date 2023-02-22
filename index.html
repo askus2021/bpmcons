@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html
-  class="js svg audio canvas cssremunit csscalc cssgradients supports no-touchevents video cssanimations cssfilters flexbox flexboxlegacy no-flexboxtweener flexwrap csstransforms csstransforms3d csstransitions backgroundblendmode cl-loaded"
-  lang="en" style data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
+  class="js svg audio canvas cssremunit csscalc cssgradients supports no-touchevents video cssanimations cssfilters 
+  flexbox flexboxlegacy no-flexboxtweener flexwrap csstransforms csstransforms3d csstransitions backgroundblendmode 
+  cl-loaded"
+  lang="en" style data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+   (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
 <!--[endif]-->
 
 <head>
@@ -15,7 +18,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
-  <!-- <link rel="stylesheet" href="css/micons.css"> -->
+  <!-- <link rel="stylesheet" href="css/micon.css"> -->
   <link rel="stylesheet" href="Micon/dist/micon/css/micon.min.css">
   <script defer="" referrerpolicy="origin" src="js/s.js">
   </script>
@@ -26,21 +29,18 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
   
-  <script>
-    nonce="a5c25db8-27ff-4beb-9607-1c9202e47447">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);
-  </script>
   <link rel="stylesheet" type="text/css" href="css/css">
 </head>
 
 <body id="top" class="  pace-done" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="300"
   data-new-gr-c-s-check-loaded="14.1094.0" data-gr-ext-installed="">
-  <div id="PBExt-overlayId" style="color: blue; text-align: center;">
+  <!-- <div id="PBExt-overlayId" style="color: blue; text-align: center;"> -->
   </div>
-  <div class="parallax-mirror"
+  <!-- <div class="parallax-mirror"
     style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 912px; width: 1903px;">
-    <img class="parallax-slider" src="./images/hero-bg0.jpg"
+    <img class="parallax-slider" src="./images/hero-bg.jpg"
       style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -178px; left: 0px; height: 1268px; width: 1903px; max-width: none;">
-  </div>
+  </div> -->
   <div class="pace  pace-inactive">
     <div class="pace-progress" data-progress-text="100%" data-progress="99"
       style="transform: translate3d(100%, 0px, 0px);">
@@ -53,7 +53,6 @@
   <header class="s-header">
     <div class="header-logo">
         <a class="site-logo" href="./index.html">
-          <!--h1>K.E Techsite</a-->
         <img src="./images/logo1.png" alt="Homepage">
     </div>
 
@@ -111,11 +110,7 @@
       <div class="row home-content__main">
         <h3>Welcome to bpmCons</h3>
         <h1>We are a trusted business process management consultancy focussing on process-oriented SAP
-          implementations and project management.</h1>
-        <!-- <h1> We are a trusted <br>workforce solution provider <br> to our clients <br> for Oracle, SAP, <br>  and IT recruitment. -->
-        <!-- </h1> -->
-        <!-- <h1> We are a creative group <br> of people who design <br> influential brands and <br> digital experiences.
-        </h1> -->
+          implementations and project management.</h1>       
         <div class="home-content__buttons">
           <!--a href="./#contact" class="smoothscroll btn btn--stroke"> Start a Project </a-->
           <a href="./#about" class="smoothscroll btn btn--stroke"> More About Us </a>
@@ -137,8 +132,7 @@
     <div class="row section-header has-bottom-sep aos-init aos-animate" data-aos="fade-up">
       <div class="col-full">
         <h3 class="subhead subhead--dark">Hello There</h3>
-        <h1 class="display-1 display-1--light">We are obsessed by business processes and SAP!
-          <!-- <br> We make sure you get the best fit for your business processes with SAP -->
+        <h1 class="display-1 display-1--light">We are obsessed by business processes and SAP!        
         </h1>
       </div>
     </div>
@@ -151,17 +145,8 @@
           transparently display and optimize business processes and to establish innovative business models by
           integrating products, services, people and systems holistically and along cross-functional processes.
           <br>We support you in establishing process management as a central component of the organization and
-          as a driver of transformation. You proﬁt from our extensive consulting and SAP know-how.
-        <!-- <br><br> -->
-        <!-- We are trusted partner in supplying the best SAP business process experts to you to fill the gaps in your 
-        project. We deliver consultants in all kind of processes and as we are SAP process consultants ourselves, we 
-        speak your language and understand what kind of person you need for the success of your project! -->
+          as a driver of transformation. You proﬁt from our extensive consulting and SAP know-how.        
         <br><br>Contact us for more information.</p>
-           <!-- <p> bpmCons is renowned for delivering the most impactful technology solutions for enterprises across 
-            diverse industries. The customized end-to-end SAP-powered solutions enable us to help clients meet their business needs consistently. 
-            We are constantly updating ourselves with new technologies 
-             to better suit the requirements of our clients, developing a broad array of services that enhance 
-             their decision making capabilities.</p> -->
       </div>
     </div>
 
@@ -308,7 +293,6 @@
                 </div>
               </div>
 
-              <!-- <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full aos-init aos-animate" data-aos="fade-up"></div> -->
                 <div>
                   <div class="col-block stats__col ">
                   <!-- <div class="stats__count">27</div> -->
@@ -349,16 +333,7 @@
       <div class="contact-primary">
          <div class="cinfo">
               <div class="aa-contact-top-left">
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d259417.86832343636!2d24.45738653039515!3d59.471391809478995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46929499df5616bf%3A0x400b36d18fc6270!2sTallinn%2C%20Estonia!5e0!3m2!1sen!2sin!4v1676283242813!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> -->
-                <!-- </iframe> -->
                 <iframe width="100%" height="450" frameborder="0" allowfullscreen="" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d259415.17900428432!2d24.458062138579947!3d59.471742083978405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676356450260!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                <!-- <iframe width="100%" height="450" frameborder="0" allowfullscreen="" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d603.4427899664502!2d24.802815614886473!3d59.42087344342483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692eb56f7499f61%3A0x9b763650c08a5bcd!2sSepapaja%206%2C%2011415%20Tallinn%2C%20Estonia!5e0!3m2!1sen!2sin!4v1676535051373!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d259415.17900428432!2d24.458062138579947!3d59.471742083978405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676356450260!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                <!-- <iframe width="100%" height="450" frameborder="0" allowfullscreen="" style="border:0" 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60265.770177206505!2d73.10432053485232!3d19.255793768065807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be797e2a90fab2b%3A0x841ea1875f09b8b6!2sng%20investment%20services!5e0!3m2!1sen!2sin!4v1666295059377!5m2!1sen!2sin"></iframe> -->
-
-                <!--https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6851.201919469417!2d-86.11773906635584!3d33.47324776828677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888bdb60cc49c571%3A0x40451ca6baf275c7!2s36008+AL-77%2C+Talladega%2C+AL+35160%2C+USA!5e0!3m2!1sbn!2sbd!4v1460452919256"></iframe> -->
             </div>
         </div>
 
@@ -372,7 +347,7 @@
             <p> bpmCons OÜ<br>
               Sepapaja tn 6, <br>
               15551 Tallinn, <br>
-              Estonia. </p>
+              Estonia </p>
             </div> 
           <div class="cinfo">
             <h5>Email Us</h5>
@@ -385,15 +360,10 @@
     <div class="row footer-main">
      <div class="row footer-bottom">
         <div class="copyright">
-          <span>© Copyright bmpCons 2023</span>
+          <span>© Copyright bpmCons 2023</span>
           </span>
         </div>
         <div class="col-twelve">
-          <!-- <div class="copyright"> -->
-            <!-- <span>© Copyright bmpCons 2023</span> -->
-            <!-- <span>icon-arrow-upSite Supported by <a href="https://npis.in/" target="_blank" rel="nofollow noopener">NPIS</a> -->
-            <!-- </span> -->
-          <!-- </div> -->
           <div class="go-top">
             <a class="smoothscroll" title="Back to Top" href="./#top">
             <i class="mi mi-ChevronUpSmall" aria-hidden="true">
@@ -412,15 +382,5 @@
 
   <script src="js/main.js">
   </script>
-  
-  <script defer="" src="./vaafb692b2aea4879b33c060e79fe94621666317369993"
-    integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
-    data-cf-beacon="{&quot;rayId&quot;:&quot;7922aabe5e688a1e&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}"
-    crossorigin="anonymous">
-    </script>
-
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true">
-</grammarly-desktop-integration>
-
 </html>
