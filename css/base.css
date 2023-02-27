@@ -29,17 +29,10 @@
 /* ===================================================================
  * # imports of important file
  * ------------------------------------------------------------------- */
-/* @import url("font-awesome/css/font-awesome.min.css"); */
-/* @import url("./micons.css"); */
-@import url("Micon/dist/micon/css/micon.min.css");
-/* @import url("fonts.css"); */
-
+@import url("css/micon.min.css");
 
 /* ===================================================================
- * # normalize
- * normalize.css v5.0.0 | MIT License | 
- * github.com/necolas/normalize.css
- *
+ * # normalisation
  * ------------------------------------------------------------------- */
 html {
     font-family: sans-serif;
