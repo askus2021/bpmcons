@@ -3241,7 +3241,7 @@ html.cl-loaded .home-content__main {
         top: -7.2rem;
     }
     .contact-content {
-        padding-bottom: 12rem;
+        padding-bottom: 1rem;
         text-align: center;
     }
     .contact-primary, .contact-secondary {
@@ -3495,6 +3495,7 @@ footer .row {
     }
     .footer-bottom {
         padding-bottom: .6rem;
+        margin-top: 0.6rem;
     }
     .footer-bottom .copyright span {
         display: block;
